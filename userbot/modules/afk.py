@@ -21,7 +21,7 @@ async def mention_afk(e):
         if ISAFK:
             if e.sender_id not in USERS:
                 await e.reply(
-                    "Sorry! My boss is AFK due to ```"
+                    "Sorry! My boss is Offline due to ```"
                     + AFKREASON
                     + "```. Would ping him to look into the message soon😉"
                 )
@@ -52,7 +52,7 @@ async def afk_on_pm(e):
         if ISAFK:
             if e.sender_id not in USERS:
                 await e.reply(
-                    "Sorry! My boss is AFK due to ```"
+                    "Sorry! My boss is Offline due to ```"
                     + AFKREASON
                     + "``` I'll ping him to look into the message soon😉"
                 )
