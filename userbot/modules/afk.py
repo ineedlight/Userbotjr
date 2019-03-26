@@ -63,7 +63,7 @@ async def afk_on_pm(e):
                     await e.reply(
                         "Sorry! But my boss is still not here. "
                         "Try to ping him a little later. I am sorry😖."
-                        "He told me he was busy with ```"
+                        "He told me he was busy because of  ```"
                         + AFKREASON
                         + "```"
                     )
